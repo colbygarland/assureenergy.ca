@@ -1,0 +1,30 @@
+img{
+	max-width: 100%;
+	height:auto;
+}
+
+.container{
+	position:relative;
+}
+
+.ir{
+	display:block;
+	text-indent:100%;
+	white-space: nowrap;
+	overflow:hidden;
+}
+
+.wide-container {
+  margin:0 auto;
+  width:auto;
+  max-width:75%;
+}
+
+.content {
+  padding-top:50px;
+  padding-bottom:50px;
+  @include media-breakpoint-up(lg){
+    padding-top:80px;
+    padding-bottom:80px;
+  }
+}
