@@ -24,4 +24,9 @@
 .feature__title {
   font-size:50px;
   margin-bottom:40px;
+  @include media-breakpoint-up(lg){
+    &.larger {
+      font-size:75px;
+    }
+  }
 }
