@@ -5,6 +5,15 @@
 .cg__card {
 
   margin-bottom:40px;
+  color:#6b6b6b;
+
+  .h4 {
+    color:#000;
+    @include media-breakpoint-up(md){
+      margin-top:20px;
+      margin-bottom:30px;
+    }
+  }
 
   @include media-breakpoint-up(lg){
     margin-bottom:0;
@@ -13,5 +22,7 @@
   img {
     margin-bottom:20px;
   }
+
+
 
 }
