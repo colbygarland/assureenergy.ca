@@ -7,6 +7,15 @@ header {
   background-color:#e8e8e8;
   padding-bottom:50px;
 
+  @include media-breakpoint-up(lg){
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    background:none;
+    padding:0;
+  }
+
 }
 
 h2.title {

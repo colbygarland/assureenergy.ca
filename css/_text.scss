@@ -5,6 +5,7 @@
 body {
 	font-family: $font-stack;
 	color:$text-color;
+	font-size:18px;
 }
 ::-moz-selection {
   background: $tertiary;
@@ -51,4 +52,48 @@ article{
 
 h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5,.h6 {
 	font-family:$headers;
+}
+
+h3 {
+	@include media-breakpoint-up(lg){
+		font-size: 2.25rem;
+	}
+}
+
+.muted-text, .muted-color {
+	color:#747474!important;
+}
+
+.title__icon {
+  font-size: 60px;
+  display: flex;
+  margin-right: 30px
+}
+.title__text {
+	h2 {
+		font-size:40px;
+		margin-bottom:-5px;
+	}
+}
+
+.fancy-list {
+
+	padding-left:0;
+	list-style: none;
+
+	li {
+		margin-bottom:10px;
+		border-bottom:1px solid #444444;
+		padding-bottom:10px;
+	}
+
+	a {
+		color:#fff;
+		transition:0.4s;
+		&:hover, &:active, &:focus {
+			text-decoration: none;
+			color:$primary;
+		}
+	}
+
 }

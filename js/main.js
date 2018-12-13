@@ -7,5 +7,9 @@ jQuery(function($) {
 		$('.menu').toggleClass('open');
 	});
 
+	AOS.init({
+		duration: 800
+	});
+
   });
 });

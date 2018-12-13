@@ -1,0 +1,36 @@
+.photo-bg__text-box {
+
+	box-shadow:0 0 68px rgba(17, 17, 17,0.11);
+	background:#fff;
+	padding:15px;
+
+	@include media-breakpoint-up(md){
+		padding:40px;
+	}
+
+	@include media-breakpoint-up(lg){
+		padding:80px;
+	}
+
+}
+
+.photo-bg {
+
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding:60px 30px;
+
+	@include media-breakpoint-up(md){
+		padding:80px;
+	}
+
+	@include media-breakpoint-up(lg){
+		padding:120px;
+	}
+
+	@include media-breakpoint-up(xl){
+		padding:200px;
+	}
+
+}
