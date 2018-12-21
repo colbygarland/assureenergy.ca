@@ -103,6 +103,25 @@
       margin-right:30px;
       a {
         font-size:18px;
+        transition:0.4s;
+        position: relative;
+        display:block;
+        &:after {
+          content:'';
+          height:2px;
+          background:$primary;
+          width:0;
+          transition:0.4s;
+          position: absolute;
+          bottom:-5px;
+          left:0;
+        }
+        &:hover, &:active, &:focus {
+          text-decoration: none;
+          &:after {
+            width:100%;
+          }
+        }
       }
     }
 
