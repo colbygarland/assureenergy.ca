@@ -54,8 +54,30 @@ article{
 	background:#eee;
 }
 
+.bg-dark-grey {
+	background:#161616;
+	color:#fff;
+	a {
+		color:$primary;
+	}
+}
+
+.fa-large {
+	font-size:40px;
+}
+
+.center, .centre {
+	text-align:center;
+}
+
 h1,h2,h3,h4,h5,h6, .h1,.h2,.h3,.h4,.h5,.h6 {
 	font-family:$headers;
+}
+
+h2 {
+	@include media-breakpoint-up(lg){
+		font-size: 2.75rem;
+	}
 }
 
 h3 {
@@ -104,4 +126,7 @@ h3 {
 
 .m-20 {
 	margin-bottom:20px;
+}
+.m-40 {
+	margin-bottom:40px;
 }

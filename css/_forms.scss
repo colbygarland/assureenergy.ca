@@ -1,0 +1,13 @@
+.form-control {
+	background:#fff!important;
+	border-radius:0!important;
+	padding:18px 22px!important;
+	font-size:15px;
+	border:none;
+}
+
+input[type="submit"] {
+	&:hover, &:active, &:focus {
+		color:$primary!important;
+	}
+}

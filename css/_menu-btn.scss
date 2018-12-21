@@ -80,6 +80,11 @@
 
   li {
     margin-bottom:35px;
+    &.current_page_item {
+      a {
+        color:$primary;
+      }
+    }
     a {
       font-size:25px;
       font-family:$headers;
@@ -101,6 +106,14 @@
     li {
       margin-bottom:0;
       margin-right:30px;
+      &.current_page_item {
+        a {
+          color:#fff;
+          &:after {
+            width:100%;
+          }
+        }
+      }
       a {
         font-size:18px;
         transition:0.4s;
