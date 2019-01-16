@@ -7,11 +7,13 @@
   }
 
   img {
-    margin-bottom:50px;
+    margin-bottom:-50px;
     margin-top:50px;
     @include media-breakpoint-up(lg){
-      margin-top:0;
-      margin-bottom:0;
+      margin:0;
+    }
+    &.btm-m {
+      margin-bottom:50px;
     }
   }
 
