@@ -7,12 +7,27 @@ footer {
   background-color: $dark;
   color:#fff;
 
+  a {
+    color:#fff;
+    font-weight:bold;
+    &:hover, &:active, &:focus {
+      color:$primary;
+    }
+  }
+
   h2.title {
     @include media-breakpoint-up(lg){
       margin-left:0;
     }
     a {
       background-image:url(../img/Assure-Energy-Logo-white.svg);
+    }
+  }
+
+  .copyright {
+    padding-bottom:15px;
+    p {
+      margin-bottom:0;
     }
   }
 
