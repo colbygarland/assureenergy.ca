@@ -9,7 +9,9 @@
   font-size:30px;
   text-align: center;
   cursor:pointer;
-  position: relative;
+  position: absolute;
+  top:-60px;
+  right:10px;
 
   label {
     position: relative;
@@ -36,7 +38,6 @@
   &.open  {
 
     color:#fff;
-    margin-top:-80px;
     z-index:9999;
 
     i:first-child {
