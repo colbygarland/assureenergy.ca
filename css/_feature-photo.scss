@@ -23,6 +23,7 @@
   @include media-breakpoint-up(lg){
     padding-top:350px;
     padding-bottom:350px;
+    background-attachment: fixed;
   }
 
   &.small {
