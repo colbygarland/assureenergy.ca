@@ -7,7 +7,7 @@ header {
   //background-color:#e8e8e8;
   position: relative;
   z-index:2;
-  text-shadow:1px 1px 10px #000;
+
 
   @include media-breakpoint-up(lg){
     position: absolute;
@@ -16,6 +16,7 @@ header {
     width:100%;
     background:none;
     padding:0;
+    text-shadow:1px 1px 10px #000;
   }
 
 }
