@@ -145,3 +145,11 @@ h3 {
 		max-width:75%!important;
 	}
 }
+
+.mobile-no-padding {
+	padding:0;
+	@include media-breakpoint-up(md){
+		padding-left:15px;
+		padding-right:15px;
+	}
+}
