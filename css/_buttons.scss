@@ -39,3 +39,20 @@
   }
 
 }
+
+h2 {
+  .btn {
+    @include media-breakpoint-up(lg){
+      line-height:42px;
+      font-size:40px;
+      &:before {
+        height:20px;
+      }
+      &:hover, &:active, &:focus {
+        &:before {
+          height:55px;
+        }
+      }
+    }
+  }
+}

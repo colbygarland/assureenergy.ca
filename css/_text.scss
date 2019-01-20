@@ -82,7 +82,7 @@ p.h4 {
 	margin-bottom:20px;
 }
 
-h2 {
+h2, .h2 {
 	@include media-breakpoint-up(lg){
 		font-size: 2.75rem;
 	}
