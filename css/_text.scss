@@ -138,3 +138,10 @@ h3 {
 .m-40 {
 	margin-bottom:40px;
 }
+
+.mobile-no-margin {
+	max-width:none!important;
+	@include media-breakpoint-up(md){
+		max-width:75%!important;
+	}
+}
