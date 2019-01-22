@@ -158,3 +158,9 @@ h3 {
 		padding-right:15px;
 	}
 }
+
+.small-content {
+	@include media-breakpoint-up(md){
+		margin-bottom:50px;
+	}
+}
