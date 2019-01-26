@@ -3,6 +3,16 @@
 	box-shadow:0 0 68px rgba(17, 17, 17,0.11);
 	background:#fff;
 	padding:15px;
+	text-shadow:none!important;
+	color:#000;
+
+	&.trans {
+		background:rgba(255,255,255,0.75);
+	}
+
+	* {
+			color:#000;
+	}
 
 	@include media-breakpoint-up(md){
 		padding:40px;

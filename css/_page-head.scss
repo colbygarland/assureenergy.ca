@@ -47,7 +47,9 @@ h2.title {
 		background-size:contain;
 
     @include media-breakpoint-up(lg){
-      background-image:url(../img/Assure-Energy-Logo-white.svg);
+      &.white {
+        background-image:url(../img/Assure-Energy-Logo-white.svg);
+      }
     }
 
 	}
