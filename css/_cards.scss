@@ -25,6 +25,7 @@
 
   .h4 {
     color:#000;
+    font-weight:normal;
     @include media-breakpoint-up(md){
       margin-top:20px;
       margin-bottom:30px;

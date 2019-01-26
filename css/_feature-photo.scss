@@ -18,6 +18,10 @@
     }
   }
 
+  * {
+    position: relative;
+  }
+
   &:before {
     content:'';
     //background:rgba(0,0,0,0.3);
@@ -33,13 +37,24 @@
     padding-top:350px;
     padding-bottom:350px;
     background-attachment: fixed;
+    text-align:right;
   }
 
   &.small {
+    text-align:left!important;
     padding-top:200px!important;
     padding-bottom:200px!important;
     &:before {
-      background:rgba(0,0,0,0.6);
+      background:rgba(0,0,0,0.3);
+    }
+  }
+
+  &.service {
+    border-bottom:10px solid #fff;
+    background-attachment: scroll!important;
+    p, li {
+      font-size:20px!important;
+      color:#eee;
     }
   }
 
