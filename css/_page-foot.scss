@@ -18,6 +18,7 @@ footer {
   h2.title {
     margin-top:0;
     @include media-breakpoint-up(lg){
+      width:100%;
       margin-left:0;
     }
     a {
