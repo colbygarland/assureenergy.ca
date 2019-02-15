@@ -10,13 +10,8 @@ header {
 
 
   @include media-breakpoint-up(lg){
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    background:none;
     padding:0;
-    text-shadow:1px 1px 10px #000;
+    background:#fff;
   }
 
 }

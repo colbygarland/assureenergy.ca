@@ -109,7 +109,7 @@
       margin-right:30px;
       &.current_page_item {
         a {
-          color:#fff;
+          color:#000;
           &:after {
             width:100%;
           }
@@ -120,6 +120,7 @@
         transition:0.4s;
         position: relative;
         display:block;
+        color:#000;
         &:after {
           content:'';
           height:2px;
