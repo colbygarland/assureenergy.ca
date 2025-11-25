@@ -1,20 +1,19 @@
 .feature__photo {
-
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  padding-top:200px;
-  padding-bottom:200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   position: relative;
-  color:#fff;
-  text-shadow:1px 1px 10px #000;
+  color: #fff;
+  text-shadow: 1px 1px 10px #000;
 
   p {
-    font-size:30px;
-    font-weight:bold;
-    @include media-breakpoint-up(lg){
-      font-size:45px;
+    font-size: 30px;
+    font-weight: bold;
+    @include media-breakpoint-up(lg) {
+      font-size: 45px;
     }
   }
 
@@ -23,54 +22,53 @@
   }
 
   &:before {
-    content:'';
+    content: "";
     //background:rgba(0,0,0,0.3);
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top:0;
-    left:0;
-    z-index:0;
+    top: 0;
+    left: 0;
+    z-index: 0;
   }
 
-  @include media-breakpoint-up(lg){
-    padding-top:350px;
-    padding-bottom:350px;
+  @include media-breakpoint-up(lg) {
+    padding-top: 350px;
+    padding-bottom: 350px;
     background-attachment: fixed;
-    text-align:right;
   }
 
   &.small {
-    text-align:left!important;
-    padding-top:100px;
-    background-attachment: scroll!important;
-    padding-bottom:100px;
+    text-align: left !important;
+    padding-top: 100px;
+    background-attachment: scroll !important;
+    padding-bottom: 100px;
     &:before {
-      background:rgba(0,0,0,0.3);
+      background: rgba(0, 0, 0, 0.3);
     }
-    @include media-breakpoint-up(lg){
-      padding-top:200px;
-      padding-bottom:200px;
+    @include media-breakpoint-up(lg) {
+      padding-top: 200px;
+      padding-bottom: 200px;
     }
   }
 
   &.service {
     //border-bottom:10px solid #fff;
-    background-attachment: scroll!important;
-    p, li {
-      font-size:20px!important;
+    background-attachment: scroll !important;
+    p,
+    li {
+      font-size: 20px !important;
     }
   }
-
 }
 
 .feature__title {
-  font-size:60px;
+  font-size: 60px;
   position: relative;
-  margin-bottom:40px;
-  @include media-breakpoint-up(lg){
+  margin-bottom: 40px;
+  @include media-breakpoint-up(lg) {
     &.larger {
-      font-size:85px;
+      font-size: 85px;
     }
   }
 }
