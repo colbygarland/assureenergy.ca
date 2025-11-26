@@ -1,15 +1,15 @@
-jQuery(window).bind("load", function() {
-	'use strict';
-jQuery(function($) {
+jQuery(window).bind("load", function () {
+  "use strict";
+  jQuery(function ($) {
+    $(".menu-btn").click(function () {
+      $(this).toggleClass("open");
+      $(".menu").toggleClass("open");
+    });
 
-	$('.menu-btn').click(function(){
-		$(this).toggleClass('open');
-		$('.menu').toggleClass('open');
-	});
+    AOS.init({
+      duration: 800,
+    });
 
-	AOS.init({
-		duration: 800
-	});
-
+    $("#year").html(new Date().getFullYear());
   });
 });
